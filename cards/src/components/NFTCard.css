@@ -1,0 +1,81 @@
+.nft-card {
+    width: 300px;
+    background: rgb(193, 132, 237);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nft-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .nft-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .owner-info, .creator-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  
+  .nft-image-container {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .nft-image {
+    width: 50%;
+    height: 50;
+    border-radius: 6px;
+  }
+  
+  .nft-footer {
+    text-align: center;
+    margin-top: 12px;
+  }
+  
+  .nft-price {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .history-btn, .buy-btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .history-btn {
+    background: #e3e3e3;
+  }
+  
+  .buy-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .buy-btn:hover {
+    background: #0056b3;
+  }
+  
